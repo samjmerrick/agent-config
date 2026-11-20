@@ -10,6 +10,7 @@ Shared Claude Code config for all my repos and sessions, packaged as a plugin pl
 | `hooks/hooks.json` | `SessionStart` hook that prints `AGENTS.md`. |
 | `agents/coder.md` | Sonnet subagent for delegated code writing. |
 | `agents/ui-designer.md` | Sonnet subagent for delegated UI design and build work. |
+| `agents/runner.md` | Haiku subagent that runs tests, builds and logs and reports a short diagnosis (read-only). |
 | `skills/bootstrap-repo/` | Skill that wires a repo to this marketplace and creates its `AGENTS.md` / `CLAUDE.md`. |
 | `.claude-plugin/plugin.json` | Plugin manifest (bump `version` on changes). |
 | `.claude-plugin/marketplace.json` | Marketplace manifest listing the plugin. |

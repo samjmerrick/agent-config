@@ -1,7 +1,7 @@
 {
   "name": "agent-config",
-  "version": "0.2.0",
-  "description": "Global AGENTS.md rules (injected at session start), Sonnet coder and UI designer agents, and a repo bootstrap skill.",
+  "version": "0.3.0",
+  "description": "Global AGENTS.md rules (injected at session start), Sonnet coder and UI designer agents, a Haiku runner agent, and a repo bootstrap skill.",
   "author": {
     "name": "samjmerrick"
   },

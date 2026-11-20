@@ -13,6 +13,7 @@ These rules apply in every repo and session. Repo-specific rules (a repo's own `
 
 - Use Opus for orchestration: planning, breaking work down, reviewing and integrating results.
 - Delegate code writing to Sonnet subagents (the `coder` agent from this plugin; `ui-designer` for UI work), giving each one a self-contained brief: goal, files, constraints, and how to verify.
+- Delegate running and triaging commands (tests, builds, lint, logs) to the `runner` agent (Haiku). It reports failures; the orchestrator or `coder` fixes them.
 - Review delegated output before committing it.
 
 ## Git and PRs

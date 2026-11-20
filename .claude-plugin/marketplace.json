@@ -10,7 +10,7 @@
     {
       "name": "agent-config",
       "source": "./",
-      "description": "Global AGENTS.md rules (injected at session start), Sonnet coder and UI designer agents, and a repo bootstrap skill."
+      "description": "Global AGENTS.md rules (injected at session start), Sonnet coder and UI designer agents, a Haiku runner agent, and a repo bootstrap skill."
     }
   ]
 }
