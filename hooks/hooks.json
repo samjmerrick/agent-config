@@ -1,0 +1,15 @@
+{
+  "description": "Load the global AGENTS.md rules into context at the start of every session.",
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "cat \"${CLAUDE_PLUGIN_ROOT}/AGENTS.md\""
+          }
+        ]
+      }
+    ]
+  }
+}
