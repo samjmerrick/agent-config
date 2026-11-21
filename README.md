@@ -7,7 +7,7 @@ Shared Claude Code config for all my repos and sessions, packaged as a plugin pl
 | Path | Purpose |
 | --- | --- |
 | `AGENTS.md` | Global rules. Injected into context at every session start by the hook. |
-| `hooks/hooks.json` | `SessionStart` hook that prints `AGENTS.md`. |
+| `hooks/hooks.json` | `SessionStart` hook: runs `hooks/session-start.sh`, which prints a version stamp (`[agent-config vX.Y.Z (sha)]`) then `AGENTS.md`. |
 | `agents/coder.md` | Sonnet subagent for delegated code writing. |
 | `agents/ui-designer.md` | Sonnet subagent for delegated UI design and build work. |
 | `agents/runner.md` | Haiku subagent that runs tests, builds and logs and reports a short diagnosis (read-only). |
